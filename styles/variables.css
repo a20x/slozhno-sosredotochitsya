@@ -2,3 +2,41 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-font: 'IBM Plex mono';
+  --accent-color: #FF0070;
+  --header-menu-color: #FF0070;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --header-decoration-color: #FF0070;
+  --header-menu-hover-color: rgba(255, 0, 112, 0.4);
+  --decoration-display: block;
+  --title-color: #DB00FF;
+  --header-text-color: #000028;
+  --header-text-bg: #FF0070;
+  --page-background-color: #000028;
+  --topic-color: #FF0070;
+  --card-title: #000028;
+  --card-title-bg: #FF0070;
+  --card-text-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
+  --link-focus-color: #FF0070;
+}
+
+.theme_light {
+  --header-menu-color: #353430;
+  --header-bg-image: url(../images/cover-image-light.png);
+  --header-decoration-color: #353430;
+  --header-menu-hover-color: rgba(50, 49, 45, 0.4);
+  --decoration-display: none;
+  --title-color: #FFC2E6;
+  --header-text-color: #353430;
+  --header-text-bg: #FF8DCB;
+  --page-background-color: #FFF1F7;
+  --topic-color: #353430;
+  --card-title: #353430;
+  --card-title-bg: #FF8DCB;
+  --card-text-color: #353430;
+  --link-shadow-color: #F1B2CE;
+  --link-focus-color: #353430;
+}
