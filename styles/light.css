@@ -4,6 +4,26 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-menu-color: #353430;
+    --header-bg-image: url(../images/cover-image-light.png);
+    --header-decoration-color: #353430;
+    --header-menu-hover-color: rgba(50, 49, 45, 0.4);
+    --decoration-display: none;
+    --title-color: #FFC2E6;
+    --header-text-color: #353430;
+    --header-text-bg: #FF8DCB;
+    --page-background-color: #FFF1F7;
+    --topic-color: #353430;
+    --card-title: #353430;
+    --card-title-bg: #FF8DCB;
+    --card-text-color: #353430;
+    --link-shadow-color: #F1B2CE;
+    --link-focus-color: #353430;
+  }
+}
+
 .page.theme_light {
   --header-menu-color: #353430;
   --header-bg-image: url(../images/cover-image-light.png);
