@@ -344,7 +344,6 @@
 .text__link {
   text-shadow: 2px 2px 0 var(--link-shadow-color);
   text-decoration: none;
-  position: relative;
 }
 
 .text__link:hover {
