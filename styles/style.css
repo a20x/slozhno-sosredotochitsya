@@ -342,13 +342,13 @@
 /* link  */
 
 .text__link {
-  text-shadow: 1px 1px 0 var(--link-shadow-color);
+  text-shadow: 2px 2px 0 var(--link-shadow-color);
   text-decoration: none;
   position: relative;
 }
 
 .text__link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--link-hover-color);
 }
 
 .text__link:focus {

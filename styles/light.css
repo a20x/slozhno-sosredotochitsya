@@ -21,6 +21,7 @@
     --card-text-color: #353430;
     --link-shadow-color: #F1B2CE;
     --link-focus-color: #353430;
+    --link-hover-color: #353430;
   }
 }
 
@@ -40,4 +41,5 @@
   --card-text-color: #353430;
   --link-shadow-color: #F1B2CE;
   --link-focus-color: #353430;
+  --link-hover-color: #353430;
 }
